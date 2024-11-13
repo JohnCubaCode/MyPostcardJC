@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    font-family: comic sans ms, cursive;
+}
+
+.MyPostcard{
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    /* border: 1px solid grey; */
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 25px;
+}
+.header{
+    display: flex;
+    height: 24%;
+    width: 500px;
+    /* border: 1px solid blue; */
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+
+.title{
+    width: 75%;
+    align-content: end;
+}
+
+.logogeeks{
+    display: flex;
+    width: 25%;
+    align-content: center;
+    justify-content: right;
+}
+img{
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+}
+
+.body{
+    height: 45%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:space-around;
+    justify-content: start;
+}
+
+.descript{
+    width: 46%;
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+}
+.users{
+    width: 46%;
+    height: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.footer{
+    align-content: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+input{
+    border-style: hidden;
+    border-bottom: 1px solid gray;
+    margin: 3px;
+    height: 25px;
+}
+
+.footer{
+    height: 24%;
+    width: 500px;
+}
+
+button{
+    border-color: lightgray;
+    margin-top: 10px;
+    height: 30px;
+    background-color: lightgray;
+}
